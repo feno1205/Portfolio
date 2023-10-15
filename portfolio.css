@@ -229,51 +229,61 @@ h3{
         padding-top: 100px;
     }
     .col-5-md{
-        width: 50%;
+        width: 70%;
         height: 400px;
-        padding-top: 20px;
-        margin-left: 10%;
+        /* padding-top: 20px; */
+        margin: auto;
     }
     .shape-outer{
-        height: calc(250px);
-        width: calc(250px);
+        height: calc(210px);
+        width: calc(210px);
         margin: 5px;
     }
     .shape-inner{
-        height: calc(230px);
-        width: calc(230px);
+        height: calc(190px);
+        width: calc(190px);
     }
     /* About */
     .col-2-md{
         height: 100px;
-        width: 100%;
+        width: 95%;
         padding: 20px;
+        margin: auto;
         border-radius: 20px 20px 0px 0px;
     }
     .col-2-md h3{
+        font-size: 30px;
         padding: 0;
+        padding-top: 20px;
     }
     .col-10-md{
         height: auto;
-        width: 100%;
+        width: 95%;
+        margin: auto;
         border-radius: 0px 0px 20px 20px;
     }
     .accordion-p{
         padding: 0;
     }
     .accordion-body{
-        padding: 0;
+        padding: 10px;
     }
     .accordion-ul{
         display: flex;
         flex-direction: column;
     }
+    .accordion-a{
+        text-align: center;
+    }
     /* project */
+    h3{
+        font-size: 30px;
+    }
     .col-4-md{
         width: 80%;
-        height: 200px;
+        height: 210px;
+        margin: auto;
         margin-bottom: 10px;
-        margin-left: 10%;
     }
     .card{
         margin: 0px;
